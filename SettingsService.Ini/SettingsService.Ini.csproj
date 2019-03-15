@@ -1,7 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <RootNamespace>phirSOFT.SettingsService.IniSettingsService</RootNamespace>
+    <AssemblyName>IniSettingsService</AssemblyName>
+    <Version>0.1.0</Version>
+    <PackageId>phirSOFT.SettingsService.IniSettingsService</PackageId>
+    <Authors>phirSOFT</Authors>
+    <Product>phirSOFT SettingsService</Product>
+    <Description>Implements an ISettignsService, that stores its settings in an ini file</Description>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="phirSOFT.SettingsService" Version="0.1.36" />
+  </ItemGroup>
 
 </Project>
